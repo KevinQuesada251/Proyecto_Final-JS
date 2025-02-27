@@ -9,30 +9,38 @@ const btnRegistrarse = document.getElementById("btnRegistrarse")
 
 async function ingresar() {
     const datosUsuarios= await getUsers("usuarios")
-     
     datosUsuarios.forEach(item => {
        console.log(item);
        btnIngresar.addEventListener("click", async function () {
-        console.log("estoy haciendo click");
-        
-          if (item.id ===  usuario.value &&  item.contrasena === contrasena.value) {
+          if (item.id ===  usuario.value &&  item.contrasena === contrasena.value && item.rol != "admin") {
             Swal.fire({
               title: "Usuario y Contraseña correctos!",
               icon: "success",
               draggable: true
             });
+            localStorage.setItem("idUsuario",item.id)
+            localStorage.setItem("nombreUsuario",item.nombre)
             setTimeout(() => {
               window.location.href= "consultas.html"
             }, 2000);
-  
-        }else if (item.id !=  usuario.value ||  item.contrasena != contrasena.value) {
+            return
+         }else if (item.id ===  usuario.value &&  item.contrasena === contrasena.value && item.rol === "admin") {
+          Swal.fire({
+            title: "Usuario y Contraseña correctos!",
+            icon: "success",
+            draggable: true
+          });
+          setTimeout(() => {
+            window.location.href= "admin.html"
+          }, 2000);
+          return
+         }else{
           Swal.fire({
             title: "Usuario y Contraseña incorrectos!",
             icon: "error",
             draggable: true
           });
-          
-        }
+         }
        })
       
     });

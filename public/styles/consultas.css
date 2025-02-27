@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 90%;
+    height: 400px;
+    background-color: #DCDCDC ;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    color: white;
+    background-color:  #007BFF ;
+}
+#tiquete{
+    width: 200px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+#btnCerrarSesion {
+    background-color: #FF8C00;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  #btnCerrarSesion:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  #brnCerrarSesion:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
+
+  #btnConsultas {
+    background-color: #FF8C00;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  #btnConsultas:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  #btnConsultas:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
+
+  
+  

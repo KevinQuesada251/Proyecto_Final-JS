@@ -1,11 +1,131 @@
-
 {
-    "usuarios": [
-
-        {
-            "id": "12",
-            "nombre": "Pepe",
-            "contrasena": "hola12"
-        }
-    ]
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Kevin",
+      "rol": "admin",
+      "contrasena": "hola1"
+    },
+    {
+      "id": "13",
+      "nombre": "Manuel",
+      "contrasena": "hola13"
+    },
+    {
+      "id": "14",
+      "nombre": "Pepe",
+      "contrasena": "hola14"
+    },
+    {
+      "id": "15",
+      "nombre": "Jose",
+      "contrasena": "hola15"
+    }
+  ],
+  "consultas": [
+    {
+      "id": "8f9d",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "hola",
+      "hora-consulta": "22:33",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "2bc5",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "hola",
+      "hora-consulta": "22:34",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "a065",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "a",
+      "hora-consulta": "22:34",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "893f",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "dad",
+      "hora-consulta": "22:34",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "360c",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "soleado",
+      "hora-consulta": "22:34",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "46de",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "eq",
+      "hora-consulta": "22:43",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "3cf9",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "eq",
+      "hora-consulta": "22:44",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "0592",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "da",
+      "hora-consulta": "22:48",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "d267",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "eq",
+      "hora-consulta": "22:48",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "855f",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "dad",
+      "hora-consulta": "22:48",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "d57d",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "dad",
+      "hora-consulta": "22:48",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "2b3d",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "da",
+      "hora-consulta": "22:49",
+      "dia-consulta": "Miércoles/2/2025"
+    },
+    {
+      "id": "638e",
+      "idUsuario": "14",
+      "nombreUsuario": "Pepe",
+      "consulta": "",
+      "hora-consulta": "23:35",
+      "dia-consulta": "Miércoles/2/2025"
+    }
+  ]
 }
